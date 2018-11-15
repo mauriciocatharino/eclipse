@@ -1,3 +1,4 @@
+package br.com.abim.main;
 
 public class Main {
 
