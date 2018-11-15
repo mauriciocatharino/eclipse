@@ -1,10 +1,18 @@
 package br.com.abim.main;
 
+import br.com.abim.entity.Pessoa;
+
 public class Main {
 
 	public static void main(String[] args) {
-	
-		System.out.println("Olá Mundo !!!!");
+
+		Pessoa p = new Pessoa();
+		p.setId(17L);
+		p.setNome("Mauricio");
+		mostrarPessoa(p);
 	}
-	
+
+	public static void mostrarPessoa(Pessoa p) {
+		System.out.println(p.toString());
+	}
 }
