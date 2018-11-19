@@ -2,6 +2,9 @@ package br.com.abim.entity;
 
 public class Motorista implements IPessoa {
 
+	
+	
+	
 	@Override
 	public long getId() {
 		// TODO Auto-generated method stub
@@ -16,7 +19,7 @@ public class Motorista implements IPessoa {
 
 	@Override
 	public String getNome() {
-		// TODO Auto-generated method stub
+		// TODO Mostrar o nome do motorista e carteira de motorista
 		return null;
 	}
 
